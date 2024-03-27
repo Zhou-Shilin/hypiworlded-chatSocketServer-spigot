@@ -94,7 +94,7 @@ public final class ChatSocketServer_spigot extends JavaPlugin implements Listene
             else {
                 String papivar = PlaceholderAPI.setPlaceholders(null, message);
                 // 可以将消息广播给服务器内的玩家
-                getServer().broadcastMessage("§6[Socket消息]§r\n" + papivar);
+                getServer().broadcastMessage("§b[QQ]§r " + papivar);
             }
         });
         // 启动监听客户端连接的线程
